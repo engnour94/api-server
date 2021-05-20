@@ -7,18 +7,19 @@ Nour Abu El-Enein
 ## server-deployment-practice
 ### Author: Nour Abu El-Enein
 
-- [GitHub Actions](https://github.com/engnour94/api-server)
+- [GitHub Actions](https://github.com/engnour94/api-server/actions)
 
 - [Repo link](https://github.com/engnour94/api-server)
 
-- [main Deployed heroku](https://basic-api-server-by-nour.herokuapp.com/)
+- [main Deployed heroku](https://api-server-by-nour.herokuapp.com/)
  
 ### Setup
 
 #### `.env` requirements
 
 - `PORT` - 3000
-- MONGOOSE_URL= mongodb://username:<password>@cluster0-shard-00-00.hxcnm.mongodb.net:27017,cluster0-shard-00-01.hxcnm.mongodb.net:27017,cluster0-shard-00-02.hxcnm.mongodb.net:27017/myFirstDatabase?ssl=true&replicaSet=atlas-cdhujm-shard-0&authSource=admin&retryWrites=true&w=majority
+- `MONGOOSE_URL= mongodb://username:<password>@cluster`
+- `MONGOOSE_TEST_URI= mongodb://username:<password>@cluster`
 
 #### Running the app
 
@@ -60,4 +61,4 @@ Nour Abu El-Enein
 
 #### uml
 
-![](uml-class3.jpg)
+![](uml-class44.jpg)
